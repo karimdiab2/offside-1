@@ -81,6 +81,7 @@ Route::post('products/add_products', [ProductsController::class, 'addMainCategor
 
 
 
+
 //add invoice purchase routes
 Route::post('/add_purchase', [purchase_invoicesController::class, 'store'])->name('add_purchase');
 Route::get('/purchase', 'purchaseController@index');
